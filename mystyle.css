@@ -1,0 +1,80 @@
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /*--------------------- Space Page button CSS ---------------------*/
+  
+  .btn-blue,
+  .bg-blue {
+    background-color: #0f81a5;
+    color: #fff;
+  }
+  .bg-lightblue {
+    background-color: #dff0f2;
+  }
+  
+  /*--------------------- Index Page CSS ---------------------*/
+  
+  #banner {
+    position: relative;
+    background: url(./assets/clip-47.png), #0f81a5;
+    background-repeat: no-repeat;
+    background-position: 2rem 95%;
+    background-size: min(400px, 60%), auto;
+    height: 100vh;
+  }
+  
+  .banner-text {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15%;
+  }
+  
+  .banner-text h1 {
+    font-size: 70px;
+  }
+  
+  .banner-text p {
+    font-size: 30px;
+    font-style: italic;
+  }
+  
+  .banner-btn {
+    margin: 70px auto 0;
+  }
+  
+  .banner-btn a {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+  }
+  
+  .banner-btn a span {
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  
+  .banner-btn a:hover span {
+    width: 100%;
+  }
+  
+  .banner-btn a:hover {
+    color: #000000;
+  }
