@@ -40,26 +40,36 @@
     />
   </head>
   <body>
-    <!--Login Page-->
-    <!--Login Page Image-->
-    <section id="login" class="login d-flex justify-content-center">
+    <div class="spinnerContainer" id="loader">
+      <div class="spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!--Create Account Page-->
+
+    <section id="login" class="create d-flex justify-content-center">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 py-5 text-center login-img">
-            <img src="assets/main.png" class="img-fluid" alt="click here" />
+          <div class="col-sm-12 py-3 text-center create-heading">
+            <p>Create Account</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!--Login Page form-->
-    <section class="d-flex justify-content-center">
+    <!--Create Page form-->
+    <section class="d-flex">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 py-5">
+          <div class="col-sm-12 py-3">
             <form
               class="d-flex justify-content-center flex-column align-items-center"
-              id="loginForm"
+              id="signupForm"
             >
               <div class="mb-4 w-75 form-group" align="center">
                 <input
@@ -73,6 +83,46 @@
 
               <div class="mb-4 w-75 form-group" align="center">
                 <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Donor's Name"
+                  id="name"
+                  required
+                />
+              </div>
+
+              <div class="mb-4 w-75 form-group" align="center">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Address"
+                  id="address"
+                  required
+                />
+              </div>
+
+              <div class="mb-4 w-75 form-group" align="center">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Pin Code / Postal Code / Zip Code"
+                  id="zip"
+                  required
+                />
+              </div>
+
+              <div class="mb-4 w-75 form-group" align="center">
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="Phone Number"
+                  id="phone"
+                  required
+                />
+              </div>
+
+              <div class="mb-4 w-75 form-group" align="center">
+                <input
                   type="password"
                   class="form-control"
                   placeholder="Password"
@@ -80,10 +130,19 @@
                   required
                 />
               </div>
-              <div class="text-center mb-3">
-                <button id="loginBtn" class="btn btn-teal">
-                  Login
-                </button>
+
+              <div class="mb-4 w-75 form-group" align="center">
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Confirm Password"
+                  id="confPassword"
+                  required
+                />
+              </div>
+
+              <div class="text-center mb-3 col-sm-12">
+                <button id="signupBtn" class="btn btn-teal">Done</button>
               </div>
             </form>
           </div>
@@ -93,9 +152,11 @@
 
     <section class="d-flex justify-content-center">
       <div class="mt-3">
-        <p>Don't have an account? <a href="create.html">Create account</a></p>
+        <p>Already have an account? <a href="login.html">Login</a></p>
       </div>
     </section>
+
+    <script type="module" src="./dist/js/signup.js"></script>
 
     <!--Bootstrap JQuery and Javascript-->
 
@@ -114,9 +175,5 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-      https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script type="module" src="./dist/js/login.js"></script>
   </body>
 </html>

@@ -36,11 +36,11 @@ function hourfinder(currhr, counsellerhr) {
   }
 }
 
-// // get data from firestore collection
-// function getCounsellorData1() {
-//   var a = prompt("Enter your Email");
-//   const link1 = "https://meet.google.com/nkq-bjdn-nkv";
-//   var tm, date;
+// get data from firestore collection
+function getCounsellorData1() {
+  var a = prompt("Enter your Email");
+  const link1 = "https://meet.google.com/nkq-bjdn-nkv";
+  var tm, date;
 
 
 
