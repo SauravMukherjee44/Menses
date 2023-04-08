@@ -60,6 +60,23 @@
     </header>
     <!-- End Header -->
 
+    
+<div class="alan-btn"></div>
+<script type="text/javascript"
+ src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
+<script>
+  var alanBtnInstance = alanBtn({
+    key: "f65cbb6930ad9e79c7e788c4b0caed3c2e956eca572e1d8b807a3e2338fdd0dc/stage",
+    onCommand: function (commandData) {
+      if (commandData.command === "go:back") {
+        //call client code that will react to the received command
+      }
+    },
+    rootEl: document.getElementById("alan-btn"),
+  });
+</script>
+
+
     <section id="cards">
       <div>
         <h2 class="top">Quick health tips!</h2>
