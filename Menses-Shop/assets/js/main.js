@@ -160,7 +160,6 @@ $(function() {
         }
         ]
     });
-    
 
     //=====  Slick testimonial active
     
