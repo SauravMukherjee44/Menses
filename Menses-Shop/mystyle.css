@@ -787,4 +787,71 @@
     transition: all 0.4s ease;
     color: #ffffff;
   }
+  .container{
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+
+  }
+  #couseller{
+    margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+
+  }
+  .card{
+    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.right {
+  position: relative;
+  right: 5px;
+  width: 300px;
+  padding: 10px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.center {
+  padding: 70px;
+  text-align: center;
+}
+.center {
+  height:200px;
+  border: 3px solid green;
+  text-align: center;
+  display:flex;
+}.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+@media screen and (max-width: 100px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
   
