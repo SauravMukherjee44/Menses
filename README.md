@@ -11,7 +11,7 @@ India has over 355 million menstruating women and girls, but millions of women a
 
 <h2>Landing page</h2>
 
- <img src="https://pasteboard.co/eILiu7Wh5JgQ.png">
+ <img src="./assets/menses_logo.png">
  
 <h1> Proposed Solution</h1>
 
