@@ -22,9 +22,17 @@ India has over 355 million menstruating women and girls, but millions of women a
 
 ## Let's get started
 
-Period poverty is a global sanitation issue affecting boys and girls around the world explained by [Global Citizen](https://www.globalcitizen.org/en/content/period-poverty-everything-you-need-to-know/). Some facts related to it are:
+## Technology used
+
+* Backend - JavaScript, email.js, smtpJs, firebase 
+* Frontend - Google Maps API, Html5, bootstrap5, JavaScript and SCSS
+* Tools used - VS code, Git/Github, Figma
+* Database - Firestore, Real time database
+* Google Technology - Google map API, Firebase, Google calender API, Emmail services -Gmail
+
+Period poverty is a global sanitation issue affecting girls around the world explained by [Global Citizen](https://www.globalcitizen.org/en/content/period-poverty-everything-you-need-to-know/). Some facts related to it are:
 * According to UNICEF, 2.3 billion people worldwide lack basic sanitation services, and only 27 percent of individuals in poor countries have adequate handwashing facilities at home. 
-* People who have infected COVID-19 and are in a combat situation may have limited access to menstruation products and running water. Period poverty is a social and political issue, as well as an economic one. Period poverty denotes the challenge that many low-income women and girls endure when trying to afford period products. The word also refers to the increasing economic vulnerability that women and girls face as a result of the financial burden created by menstruation supplies. These include not only menstruation pads and tampons, but also associated costs such as pain medicine.
+* People who have infected with COVID-19 and are in a combat situation may have limited access to menstruation products and running water. Period poverty is a social and political issue, as well as an economic one. Period poverty denotes the challenge that many low-income women and girls endure when trying to afford period products. The word also refers to the increasing economic vulnerability that women and girls face as a result of the financial burden created by menstruation supplies. These include not only menstruation pads and tampons, but also associated costs such as pain medicine.
 * Period poverty is not just a failure of constitutional guarantees, but it is also a significant human rights concern. The issue connects with the UN Sustainable Development Goals 4, 5, and 6, which aim to ensure quality education, gender equality, and access to safe drinking water and sanitation.
 The world must act to end period poverty. Promoting menstrual equity is key to supporting women and young girls. 
 
