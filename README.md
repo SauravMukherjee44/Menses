@@ -7,11 +7,11 @@ Menses-Enables Menstrual Hygiene Solutions
 
 India has over 355 million menstruating women and girls, but millions of women across the country face uncomfortable and undignified experiences with menstrual hygiene management. Menses enables accessibility of menstrual hygiene solutions.
 
- <img width="30%" align="center" src="./assets/menses-logo.jpg">
+ <img width="30%" height="50%" src="https://user-images.githubusercontent.com/87236107/160803967-4c573e67-e94b-4f12-9253-d065f772a6e2.png">
 
 <h2>Landing page</h2>
 
- <img src="./assets/menses_logo.png">
+ <a href="https://ibb.co/R0gH9bp"><img src="https://i.ibb.co/1q02LQf/menses-logo.png" alt="menses-logo" border="0" /></a>
  
 <h1> Proposed Solution</h1>
 
